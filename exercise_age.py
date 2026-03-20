@@ -1,4 +1,5 @@
-""""
+def age():
+    """
     Ejercicio 10 - Conversión de Edad a Tiempo
 
     Dada una edad en años, calcular e imprimir:
@@ -7,18 +8,16 @@
     3. La edad en horas (1 día = 24 horas)
     4. La edad en minutos (1 hora = 60 minutos)
     """
-años= int(input("cuantos años tenes"))
-meses=12
-dias=365
-horas=24
-minutos=60
+    edad_anos = 25
 
-años2= (años * meses)
-dias2= (años * dias)
-horas2= (dias2 * horas)
-minutos2= (horas2 * minutos)
+    meses = edad_anos * 12
+    dias = edad_anos * 365
+    horas = dias * 24
+    minutos = horas * 60
 
-print (años2)
-print (dias2)
-print (horas2)
-print (minutos2)
+    print(meses)
+    print(dias)
+    print(horas)
+    print(minutos)
+
+age()
