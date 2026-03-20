@@ -8,5 +8,16 @@ def swap():
     3. El valor de x después del intercambio
     4. El valor de y después del intercambio
     """
+    """"
     x = 10
     y = 20
+    """
+x = int(input("x:"))
+y = int(input("y:"))
+
+print(x)
+print(y)
+x2= y
+y2= x
+print(x2)
+print(y2)
